@@ -53,7 +53,6 @@ int main()
     Solution solution;
     char s[100];
     int x = 100;
-
     cout << "Enter the number to see if it's palindrome or not: ";
     cin >> s;
     cout << (solution.isPalindrome(s) ? "Palindrome" : "Not palindrome") << endl;
